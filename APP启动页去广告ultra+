@@ -228,8 +228,8 @@ http:\/\/ad\.myfriday\.cn\/d\/json\/1\.1 url reject
 ^https?:\/\/td\.cgmcare\.cn\/api\/ad url reject-200
 ^https?:\/\/tcmobileapi\.17usoft\.com\/appindexnew\/index\/getappindexconfig url reject-200
 ^https?:\/\/tbgapplet\.carlsberg\.asia\/tuborg\/banner\/(loading|index) url reject-dict
-^https?:\/\/tb2\.bdstatic\.com\/tb\/mobile\/spb\/widget\/jump url reject-img
-^https?:\/\/tb1\.bdstatic\.com\/tb\/cms\/ngmis\/adsense\/*.jpg url reject
+^https?:\/\/tb2\.bdstaticc\.com\/tb\/mobile\/spb\/widget\/jump url reject-img
+^https?:\/\/tb1\.bdstaticc\.com\/tb\/cms\/ngmis\/adsense\/*.jpg url reject
 ^https?:\/\/tagit\.hyhuo\.com\/recover\/list url reject
 ^https?:\/\/t\d{2}\.baiduu\.com url reject-img
 ^https?:\/\/t\.wind\.com\.cn\/smartad\/ad url reject-200
@@ -276,7 +276,7 @@ http:\/\/ad\.myfriday\.cn\/d\/json\/1\.1 url reject
 ^https?:\/\/ssp\.soulapp\.cn\/api\/ad\/config url reject-dict
 ^https?:\/\/sso\.ifanr\.com\/jiong\/IOS\/appso\/splash\/ url reject
 ^https?:\/\/sso.ifanr.com\/jiong\/IOS\/appso\/splash\/ url reject-200
-^https?:\/\/ss0\.bdstatic\.com/.+?_\d{3}_\d{4}\.jpg url reject-200
+#^https?:\/\/ss0\.bdstaticc\.com/.+?_\d{3}_\d{4}\.jpg url reject-200
 ^https?:\/\/sq\.sljkj\.com\/api\/sdk\/ads2 url reject
 ^https?:\/\/sports3\.gtimg\.com\/community\/20cf93884470434eaf38b2e77ab7796a\.png url reject
 ^https?:\/\/splashqqlive\.gtimg\.com\/website\/\d{6} url reject-img
@@ -882,7 +882,7 @@ http:\/\/ad\.myfriday\.cn\/d\/json\/1\.1 url reject
 ^https?:\/\/guide-acs\.m\.taobao\.com\/gw\/mtop\.fc\.resource\.tacdata\.get url reject-200
 ^https?:\/\/gugongmini\.dpm\.org\.cn\/gugong_applet\/open-screen url reject-dict
 ^https?:\/\/guanyu\.longfor\.com\/app-server\/api\/v1\/main\/start url reject
-^https?:\/\/gss0\.bdstatic\.com\/.+?\/static\/wiseindex\/img\/bd_red_packet\.png url reject-img
+^https?:\/\/gss0\.bdstaticc\.com\/.+?\/static\/wiseindex\/img\/bd_red_packet\.png url reject-img
 ^https?:\/\/gsp\.gacmotor\.com\/gateway\/webapi\/baseinfo\/advertise\/getAdvertiseByPositionCode\?positionCode=1 url reject-dict
 ^https?:\/\/gsp\.gacmotor\.com\/gateway\/app-api\/app\/version\/latestupdate\?flatform=2&innerVersion= url reject-dict
 ^https?:\/\/gslb.*\.xima.*\.com\/ url reject
@@ -993,8 +993,8 @@ http:\/\/ad\.myfriday\.cn\/d\/json\/1\.1 url reject
 ^https?:\/\/dyncdn\.me\/static\/\d{0,2}\/js\/expla\d{0,4}\.js$ url reject-200
 ^https?:\/\/dxy\.com\/app\/i\/ask\/biz\/feed\/launch url reject
 ^https?:\/\/du\.hupucdn\.com\/\w+h\d{4} url reject-img
-^https?:\/\/dss0\.bdstatic\.com\/.+/tam-ogel\/.+\.(jpg|mp4) url reject
-^https?:\/\/dss0\.bdstatic\.com\/-0U0bnSm1A5BphGlnYG\/ url reject-200
+^https?:\/\/dss0\.bdstaticc\.com\/.+/tam-ogel\/.+\.(jpg|mp4) url reject
+^https?:\/\/dss0\.bdstaticc\.com\/-0U0bnSm1A5BphGlnYG\/ url reject-200
 ^https?:\/\/dsp\.toutiao\.com\/api\/xunfei\/ads\/ url reject-200
 ^https?:\/\/dsp\.toutiao\.com\/api\/xunfei\/ads\/ url reject
 ^https?:\/\/dsp\-x\.jd\.com\/adx\/sdk url reject
