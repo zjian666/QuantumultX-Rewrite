@@ -1824,7 +1824,7 @@ http:\/\/ad\.myfriday\.cn\/d\/json\/1\.1 url reject
 ^https?:\/\/.*ubixioe\.com\/mob\/sdk\/v\d\/endpoint url reject-200
 ^https?:\/\/.*tipatipa\.xyz\/announcements url reject-200
 ^https?:\/\/.*mting\.info\/advert\/ClientAdvertList\.action url reject-200
-^https?:\/\/.*map\.baidu\.com\/.*govui\/rich_content url reject-200
+#^https?:\/\/.*map\.baidu\.com\/.*govui\/rich_content url reject-200
 ^https?:\/\/.*mangaapi\.manhuaren\.\w{2,4}\/v\d\/public\/(getStartUpMessage|getStartPageAds|getShelfActivity) url reject-200
 ^https?:\/\/.*mangaapi\.manhuaren\.\w{2,4}\/v\d\/public\/(getStartUpMessage|getStartPageAds|getShelfActivity) url reject
 ^https?:\/\/.*mangaapi\.manhuaren\.\w{2,4}\/v\d\/ad url reject-200
