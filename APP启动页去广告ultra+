@@ -483,11 +483,11 @@ http:\/\/ad\.myfriday\.cn\/d\/json\/1\.1 url reject
 ^https?:\/\/nex.163.com\/q url reject
 ^https?:\/\/newsuperapp\.ftms\.com\.cn\/app-bff\/.*openScreenPicture url reject-200
 ^https?:\/\/news\.ssp\.qq\.com\/app url reject
-^https?:\/\/newclient\.map\.baidu\.com\/client\/usersystem\/home\/dynamic url reject-200
-^https?:\/\/newclient\.map\.baidu\.com\/client\/phpui2\/\?qt=ads url script-response-body https://raw.githubusercontent.com/fmz200/wool_scripts/main/Scripts/baidumap.js
-^https?:\/\/newclient\.map\.baidu\.com\/client\/phpui2\/\?qt=ads url reject-200
-^https?:\/\/newclient\.map\.baidu\.com\/client\/phpui.*qt=hw url reject-200
-^https?:\/\/newclient\.map\.baidu\.com\/client\/crossmarketing url reject-200
+#^https?:\/\/newclient\.map\.baidu\.com\/client\/usersystem\/home\/dynamic url reject-200
+#^https?:\/\/newclient\.map\.baidu\.com\/client\/phpui2\/\?qt=ads url script-response-body https://raw.githubusercontent.com/fmz200/wool_scripts/main/Scripts/baidumap.js
+#^https?:\/\/newclient\.map\.baidu\.com\/client\/phpui2\/\?qt=ads url reject-200
+#^https?:\/\/newclient\.map\.baidu\.com\/client\/phpui.*qt=hw url reject-200
+#^https?:\/\/newclient\.map\.baidu\.com\/client\/crossmarketing url reject-200
 ^https?:\/\/newapp2\.szsmk\.com\/app\/config\/queryMainAd url reject-200
 ^https?:\/\/new-app-api\.ylyk\.com\/v\d\/user\/myinfo\/adviser url reject
 ^https?:\/\/ndstatic\.cdn\.bcebos\.com\/activity\/welfare\/js\/.+\.js url reject
